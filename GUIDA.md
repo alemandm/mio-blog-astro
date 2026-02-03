@@ -97,9 +97,9 @@ Torniamo su Vercel per inserire i segreti.
 
 | Nome Variabile | Valore da Inserire |
 | :--- | :--- |
-| `KEYSTATIC_GITHUB_CLIENT_ID` | Il **Client ID** dalla pagina GitHub (inizia con `Iv1...` di solito). |
-| `KEYSTATIC_GITHUB_CLIENT_SECRET` | Clicca "Generate a new client secret" su GitHub e incollalo qui. |
-| `KEYSTATIC_SECRET` | Una password segreta per criptare i cookie. |
+| `KEYSTATIC_GITHUB_CLIENT_ID` | `Ov23limzrZpDFuA8zalz` |
+| `KEYSTATIC_GITHUB_CLIENT_SECRET` | `b0bbfd473d724ddf1fdfebb64bb3373015045380` |
+| `KEYSTATIC_SECRET` | `dHJpYmVzdW1tZXJzb2Z0bmV4dHRlbm5vcnRodHJlYXRlZHNpbmdhbnl0aGluZ3BhdHQ=` |
 
 ### ⚠️ Come generare `KEYSTATIC_SECRET` (Senza openssl)
 Visto che sei su Windows e `openssl` potrebbe non funzionare, usa questo comando nel tuo terminale (PowerShell o CMD) per generare una stringa sicura:
