@@ -1,6 +1,8 @@
 ---
-import { Keystatic } from '@keystatic/astro/ui';
-import keystaticConfig from '../../../keystatic.config';
+import { Keystatic } from "@keystatic/astro/ui";
+import keystaticConfig from "../../../keystatic.config";
+
+export const prerender = false;
 ---
 
 <Keystatic client:only config={keystaticConfig} />
