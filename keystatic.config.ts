@@ -1,7 +1,7 @@
 import { config, fields, collection } from '@keystatic/core';
 
 export default config({
-    storage: process.env.NODE_ENV === 'development'
+    storage: typeof window !== 'undefined' && window.location.hostname === 'localhost'
         ? { kind: 'local' }
         : {
             kind: 'github',
@@ -9,6 +9,7 @@ export default config({
                 owner: 'alemandm',
                 name: 'mio-blog-astro',
             },
+            pathPrefix: 'src/content',
         },
     collections: {
         posts: collection({
