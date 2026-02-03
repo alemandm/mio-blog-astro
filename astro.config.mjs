@@ -1,5 +1,5 @@
 import { defineConfig } from 'astro/config';
-import vercel from '@astrojs/vercel/serverless';
+import vercel from '@astrojs/vercel';
 import keystatic from '@keystatic/astro';
 import markdoc from '@astrojs/markdoc';
 import tailwind from '@astrojs/tailwind';
